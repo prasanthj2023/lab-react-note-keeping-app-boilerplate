@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(76, 17, 76);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+}
+
+.input{
+    width: 500px;
+    height: 500px;
+}
+
+.input h3{
+    margin-right: 450px;
+    color: white;
+}
+
+.input-text{
+    color: white;
+    width: 99%;
+    height: 86%;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(76, 17, 76);
+}
+
+.output{
+    width: 500px;
+    height: 500px;
+}
+
+.output h3{
+    margin-right: 400px;
+    color: white;
+}
+
+.output-text{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    width: 99%;
+    height: 86%;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+}
